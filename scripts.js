@@ -5,6 +5,16 @@
 
 console.log ("Hi there");
 
+//Add dataLoaded function that calls up the data.
+function dataLoaded (UNEMPDATA) {
+	
+	//console log to make sure the data is pulled up.
+	console.log (UNEMPDATA);
+	
+}
+
+
+
 //Add the googleLoaded function.
 function googleLoaded(){
 	console.log ("Google has loaded")
